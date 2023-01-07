@@ -1,0 +1,124 @@
+body{
+	background-color: hsl(218, 28%, 13%);
+	color: white;
+	letter-spacing: 1px;
+	margin: 10px;
+	font-size: 25px;
+	box-sizing: border-box;	
+}
+.header {
+	margin:0%;
+	padding:20px;
+	bottom:80px;
+}
+.middle {
+	  position: relative;
+	  left:40%;
+	  display: inline-flex;	 
+	  bottom: 80px;
+}
+.INR {
+	background-color: rgb(51, 62, 68);
+	height:40px;
+	width:100px;
+	border-radius:5px;
+	display: flex;
+    align-items: center;
+}
+.BTC {
+	background-color: rgb(51, 62, 68);
+	height:40px;
+	width:100px;
+	border-radius:5px;
+	display: flex;
+    align-items: center; 
+}
+.right {
+	position: relative;
+	float: right;
+	bottom: 80px;
+	display: inline-flex;
+}
+.name {
+	  color:rgb(117, 209, 179);
+}
+.powered {
+	color: grey;
+	display: inline-flex;
+}
+.finstreet {
+  color:rgb(117, 209, 179);
+}
+.count {
+	display: flex;
+    align-items: center;
+	border-radius: 50%;
+	border: 5px solid rgb(117, 209, 179);	
+	color:rgb(117, 209, 179);
+	width:60px;
+	margin-right: 15px;
+}
+.connect {
+	background-color: rgb(117, 209, 179);
+	height:50px;
+	width:300px;
+	border-radius: 5px;
+	display: flex;
+    align-items: center;
+	font-family: 'Oswald,sans-serif';
+} 
+.heading {
+	color: grey;
+}
+  th {
+	color: grey;
+	text-align: center;
+  }
+  td {
+	
+	background-color: rgb(51, 62, 68);
+	border: 8px solid hsl(218, 28%, 13%);
+	border-right: 8px solid rgb(51, 62, 68);
+	border-radius: 10px;
+	font-weight: bold;
+	margin: 5px;
+	text-align: center;
+	height: 50px;
+  }
+  @media only screen and (max-width: 1360px) {
+   body {
+	font-size: smaller;
+	  justify-content: space-evenly;
+	  flex-direction: row-reverse;
+   }
+   .heading-right, .name{
+	font-size: 17px;
+   }
+	.middle, .right {
+    width: 40%;
+	  font-size: 17px;
+	  margin-top: 40px;
+  }
+  .connect {
+	  width:130px;
+	  font-size: 13px;
+  }
+  .INR {
+	    width: 40px;
+		height: 30px;
+		font-size: 13px;
+		margin-right: 40px;
+  }
+  .BTC {
+	width: 40px;
+	height:30px;
+	font-size: 13px;
+	margin-left: -50px;
+}
+.count {
+	  width:40px;
+	  height: 50px;
+	  margin-left: 10px;
+}
+
+}

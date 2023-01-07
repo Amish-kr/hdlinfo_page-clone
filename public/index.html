@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HODLINFO</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left">
+        <div class="heading-right">
+          <h1 class="name">HODLINFO.com</h1>
+        </div>
+        <div class="powered">
+          Powered By
+          <div class="finstreet">&nbspFinstreet</div>
+        </div>
+      </div>
+
+      <div class="middle">
+        <div class="INR">&nbsp&nbsp&nbspINR</div>
+        &nbsp&nbsp&nbsp&nbsp
+        <div class="BTC">&nbsp&nbsp&nbspBTC</div>
+      </div>
+
+      <div class="right">
+        <div class="count">&nbsp58</div>
+        <div class="connect">
+          &nbsp &nbsp<img src="telegram.png" style="height: 25px" /> &nbsp
+          &nbspConnect Telegram
+        </div>
+        <div class="change"></div>
+      </div>
+    </div>
+    <table style="width: 100%" class="tables">
+      <tr>
+        <th>#</th>
+        <th>name</th>
+        <th>Last</th>
+        <th>Buy/Sell Price</th>
+        <th>volume</th>
+        <th>base_unit</th>
+      </tr>
+      <tbody id="datas"></tbody>
+    </table>
+  </body>
+  <script defer type="module" src="script.js"></script>
+</html>
